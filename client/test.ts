@@ -123,7 +123,8 @@ async function main() {
     // Initialize Appwrite client
     const client = new Client()
         .setEndpoint(CONFIG.endpoint)
-        .setProject(CONFIG.projectId);
+        .setProject(CONFIG.projectId)
+        .setKey(CONFIG.apiKey);
 
     const functions = new Functions(client);
 
