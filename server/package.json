@@ -1,0 +1,14 @@
+{
+    "name": "appwrite-polling-test-server",
+    "version": "1.0.0",
+    "description": "Minimal Appwrite function for testing getExecution polling",
+    "main": "src/main.ts",
+    "type": "module",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
